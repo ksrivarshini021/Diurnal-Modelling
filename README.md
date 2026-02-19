@@ -3,7 +3,8 @@ Applying Vision Transformers to model diurnal patterns in Land Surface Temperatu
 
 # Introduction
 This study introduces DAYVIEW, a spatiotemporal deep learning framework designed to reconstruct full diurnal cycles of Land Surface Temperature from a single satellite observation, regardless of acquisition time. The methodology involves using hourly products from GOES-R satellite series over the contiguous United States and integrates ancillary information such as climatic zones and elevation.
- Built on a Masked Autoencoder strategy that has a Vision transformer encoder blocks within the model, DAYVIEW directly addresses three main challenges
+
+Built on a Masked Autoencoder strategy that has a Vision transformer encoder blocks within the model, DAYVIEW directly addresses three main challenges
 1. Estimating Diurnal cycles from sparse observation
 2. Considering environmental  context through ancillary data to considering the fluctuation
 3. Extending predictions accurately across continental scale
@@ -40,6 +41,7 @@ Hourly LST maps from GOES-R ABI split window bands(14 and 15)
 
 ### Ancillary data
 DEM (Digital Elevation Model) source : https://www.usgs.gov/
+
 and Köppen climate data source: https://www.gloh2o.org/koppen/
 
 ### Coverage

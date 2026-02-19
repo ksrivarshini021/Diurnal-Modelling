@@ -23,6 +23,37 @@ Comparison to other satellite sensors:
 	2. VIIRS: once every day
 Result: Hard to reconstruct continuous 24-hours LST behavior over large areas.
 
+# Research Questions
+
+To reconstruct diurnal patterns for Land Surface temperature at scale using the scattered sparce data that the GOES-R satellite provides, our study revolves around the following research questions:
+
+‣ RQ-1: How can we design a data-driven model that estimates the full diurnal cycle of land surface temperature when measurements are available only at limited temporal intervals, such as once daily?
+
+‣ RQ-2: How can we integrate ancillary data that are closely related to land surface temperature to improve the reconstruction of its diurnal cycle?
+
+‣ RQ-3: How can we extend the estimation of diurnal land surface temperature cycles to large spatial extents?
+
+# Data Preprocessing
+
+### Primary data 
+Hourly LST maps from GOES-R ABI split window bands(14 and 15)
+
+### Ancillary data
+DEM (Digital Elevation Model) source : [Digital Elevation Model data](https://www.usgs.gov/search?keywords=DEM}
+and Köppen climate data source: [Köppen climatic zones](https://www.gloh2o.org/koppen/)
+
+### Coverage
+Continuous observations with 1-hour temporal resolution and 2-km spatial resolution for the entire conus. 
+
+### Concatenating dataset -> Quadtree indexing -> Input tile
+
+
+
+
+
+
+
+
 
 
 

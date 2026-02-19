@@ -39,8 +39,8 @@ To reconstruct diurnal patterns for Land Surface temperature at scale using the 
 Hourly LST maps from GOES-R ABI split window bands(14 and 15)
 
 ### Ancillary data
-DEM (Digital Elevation Model) source : [Digital Elevation Model data](https://www.usgs.gov/search?keywords=DEM}
-and Köppen climate data source: [Köppen climatic zones](https://www.gloh2o.org/koppen/)
+DEM (Digital Elevation Model) source : https://www.usgs.gov/
+and Köppen climate data source: https://www.gloh2o.org/koppen/
 
 ### Coverage
 Continuous observations with 1-hour temporal resolution and 2-km spatial resolution for the entire conus. 

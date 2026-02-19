@@ -47,7 +47,27 @@ and Köppen climate data source: https://www.gloh2o.org/koppen/
 ### Coverage
 Continuous observations with 1-hour temporal resolution and 2-km spatial resolution for the entire conus. 
 
-### Concatenating dataset -> Quadtree indexing -> Input tile
+##### Concatenating dataset -> Quadtree indexing -> Input tile
+
+# Methodology
+### Main Goal
+To reconstruct the full 24-hour cycle of land surface temperature(LST) cycles from a single satellite observation.
+
+### Our Approach 
+1. Leverages geostationary satellite observations to provide continuous temperature measurements across large spatial domains. 
+
+2. Employes a modified MAE-ViT framework tailored for reconstructing full diurnal cycles from sparse inputs
+
+3. Incorporates spatiotemporal and geospatial encodings to capture evaluation, climate, and solar time
+
+This enables accurate reconstruction of hourly land surface temperature dynamics from a single observation
+
+#### ViT Backbone
+
+Built on a Vision Transformer with a Masked Autoencoder pretraining, our approach leverages geostationary satellite observations to provide continuous temperatures for the entire CONUS. 
+
+
+
 
 
 

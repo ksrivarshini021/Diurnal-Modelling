@@ -1,2 +1,7 @@
 # Diurnal-Modelling-using-Vision-Transformers
 Applying Vision Transformers to model diurnal patterns in Land Surface Temperature (LST) using GOES-R satellite imagery
+
+# Introduction
+The crux of this research is to design a methodology that reconstructs the complete daily fluctuation of land surface temperature from very limited observations distributed across wide spatial extents. To accomplish this, we employ a generative deep learning approach applied to NASA’s GOES satellite imagery of the United States. Our model is designed to infer the entire hourly pattern of land surface temperature from a single observation, regardless of the time of day at which that measurement occurs. This capability directly addresses the usability of datasets that provide only once-daily values and scales effectively.
+
+This study introduces \textsc{DayView}, a spatiotemporal deep learning framework designed to reconstruct full diurnal cycles of LST from a single satellite observation, regardless of acquisition time. The methodology draws on hourly products from the GOES–R satellite series over the contiguous United States and integrates ancillary information such as climatic zones and elevation. Built on a Vision Transformer (ViT) architecture with a Masked Autoencoder strategy, \textsc{DayView} directly addresses three core challenges: (1) estimating diurnal cycles from sparse observations, (2) incorporating environmental context to refine fluctuation modeling, and (3) extending predictions reliably across continental scales.

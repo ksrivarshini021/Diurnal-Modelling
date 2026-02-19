@@ -36,15 +36,14 @@ To reconstruct diurnal patterns for Land Surface temperature at scale using the 
 
 # Data Preprocessing
 
-### Primary data 
+#### Primary data 
 Hourly LST maps from GOES-R ABI split window bands(14 and 15)
 
-### Ancillary data
+#### Ancillary data
 DEM (Digital Elevation Model) source : https://www.usgs.gov/
+Köppen climate data source: https://www.gloh2o.org/koppen/
 
-and Köppen climate data source: https://www.gloh2o.org/koppen/
-
-### Coverage
+#### Coverage
 Continuous observations with 1-hour temporal resolution and 2-km spatial resolution for the entire conus. 
 
 ##### Concatenating dataset -> Quadtree indexing -> Input tile
